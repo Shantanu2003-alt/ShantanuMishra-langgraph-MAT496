@@ -69,3 +69,42 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module1/chain%20(2).ipynb
 
+# Module 1 Video 5: Router
+
+Learnings:
+
+This video taught me how a chat model can decide its response based on the input and it can either answer directly or call a tool. 
+I learned how to use messages to keep track of the conversation and bind tools so the model knows when to use them. 
+I understood how to add ToolNodes and conditional edges to guide the flow based on the model’s output. 
+I saw how different tools and paths can help handle different kinds of questions more effectively. I also learnt that the LangGraph Studio is currently not supported on Google Colab.
+
+Changes:
+
+Changed the multiplication question with different values and tested the tool.
+I also asked an extra question about "Who won the fifa world cup in 2022."
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/router.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module1/router%20(1).ipynb
+
+# Module 1 Video 6: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
