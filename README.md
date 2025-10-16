@@ -1,6 +1,7 @@
 # ShantanuMishra-langgraph-MAT496
 
-This repository is for my video-by-video progress of different modules of the Introduction to LangGraph course by LangChain Academy. 
+This repository is for my video-by-video progress of different modules of the Introduction to LangGraph course by LangChain Academy.
+Course: https://academy.langchain.com/courses/intro-to-langgraph
 I have written my learnings and my work of each video of the Modules below:
 
 # Module 1 video 1: Motivation
@@ -139,8 +140,16 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module1/agent_memory%20(1).ipynb
 
+# Module 1 Video 8: Intro to Deployment
 
+Learnings:
 
+I learned how to create and deploy LangGraph agents that can think, remember and respond smartly.
+I also learned how to use LangGraph Studio and Cloud to run and manage my agents easily.
+
+Changes:
+
+I could not deploy the project because deployment is only available for users on the LangSmith Plus (paid) plan.
 
 
 
