@@ -43,4 +43,29 @@ This is how my graph is looking
 
 This is my output.
 
+# Module 1 Video 3: 
+
+
+
+
+
+
+# Module 1 Video 4: Chain
+
+Learnings:
+
+I learned how to build a chain in LangGraph by combining chat messages, chat models and tools within a single workflow. 
+I understood how messages store the full conversation and how tools let the model interact with external systems. 
+I also learned how to use reducers like 'add_messages' to keep appending new messages during execution. 
+
+Changes:
+
+I executed the graph by asking an extra question, "Where is Lamine Yamal from?" as input and then I printed all the messages in the conversation to view the full chat flow and responses.
+Then I ran the graph with a human message and tested the tool by asking the model to add 98 and 107 and printed all the messages to see how the model processed the request and gave the result.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/chain.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module1/chain%20(2).ipynb
 
