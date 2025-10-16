@@ -12,9 +12,9 @@ Learnings:
 
 So from this video, I learned that LangGraph is an open-source framework which helps to design custom agent workflows using states, nodes and edges for better control. 
 LangGraph is an MIT-licensed open-source library and is free to use. LangGraph does not require LangChain but works well with it to build complex and stateful agents. 
-I got to learn about the basic LangGraph components- about what the states, nodes and edges do.
+I got to learn about the basic LangGraph components- about what the states, nodes and edges do. 
 LangChain is for quick model interactions but LangGraph gives deeper control and flexibility. 
-I also learned how LangGraph enables developers to create reliable human-in-the-loop systems with durable and long-running task execution.
+I also learned how LangGraph helps to build reliable systems that involve humans and to handle long taks .
 
 Changes:
 
@@ -152,10 +152,3 @@ I also learned how to use LangGraph Studio and Cloud to run and manage my agents
 Changes:
 
 I could not deploy the project because deployment is only available for users on the LangSmith Plus (paid) plan.
-
-
-
-
-
-
-
