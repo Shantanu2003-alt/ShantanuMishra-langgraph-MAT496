@@ -1,7 +1,9 @@
 # ShantanuMishra-langgraph-MAT496
 
 This repository is for my video-by-video progress of different modules of the Introduction to LangGraph course by LangChain Academy.
+
 Course: https://academy.langchain.com/courses/intro-to-langgraph
+
 I have written my learnings and my work of each video of the Modules below:
 
 # Module 1 video 1: Motivation
@@ -150,10 +152,6 @@ I also learned how to use LangGraph Studio and Cloud to run and manage my agents
 Changes:
 
 I could not deploy the project because deployment is only available for users on the LangSmith Plus (paid) plan.
-
-
-
-
 
 
 
