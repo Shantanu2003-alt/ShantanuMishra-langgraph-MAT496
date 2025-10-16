@@ -46,10 +46,18 @@ This is my output.
 
 # Module 1 Video 3: 
 
+Learnings:
 
+So this video taught me about how to set up and use the LangGraph Studio to easily build and test graphs. 
+I also learned how LangSmith helps track each step in the workflow for better understanding.
 
+Work:
 
+So with the help of this video, I basically made a new simple graph with extra node opened using the LangSmith studio.
 
+<img width="273" height="344" alt="image" src="https://github.com/user-attachments/assets/0db0c18f-1d31-44c8-ac6f-44c48840156e" />
+
+This is how my graph using the LangSmith Studio
 
 # Module 1 Video 4: Chain
 
@@ -129,6 +137,8 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module1/agent_memory%20(1).ipynb
+
+
 
 
 
