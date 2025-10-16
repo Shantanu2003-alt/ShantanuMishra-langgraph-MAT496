@@ -4,9 +4,10 @@ This repository is for my video-by-video progress of different modules of the In
 I have written my learnings and my work of each video of the Modules below:
 
 # Module 1 video 1: Motivation
+
 Learnings:
 
-So from this video, I learned that LangGraph is an open-source orchestration framework which helps to design custom agent workflows using states, nodes and edges for better control and reliability. 
+So from this video, I learned that LangGraph is an open-source framework which helps to design custom agent workflows using states, nodes and edges for better control. 
 LangGraph is an MIT-licensed open-source library and is free to use. LangGraph does not require LangChain but works well with it to build complex and stateful agents. 
 I got to learn about the basic LangGraph components- about what the states, nodes and edges do.
 LangChain is for quick model interactions but LangGraph gives deeper control and flexibility. 
@@ -21,8 +22,8 @@ This lesson was a theoretical explanation of the topic and did not have any sour
 Learnings:
 
 I learned how to define the State of a graph using 'TypedDict' to share information between nodes and edges. 
-I understood that nodes are Python functions that update the state and edges connect them, either directly or based on conditions. 
-Also learned how to build a StateGraph, add START and END nodes, compile it and visualize it. 
+I understood that nodes are python functions that update the state and then the edges connect them, either directly or based on some conditions. 
+I also learned how to build a StateGraph, how to add START and END nodes and how to visualize everything. 
 Finally, I learned how to run the graph using 'invoke' that executes each node in order and returns the final updated state.
 
 Changes:
@@ -38,7 +39,7 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Mo
 
 <img width="271" height="234" alt="image" src="https://github.com/user-attachments/assets/474236bf-bc4b-43fa-ba07-43dcee6f2953" />
 
-This is how my graph is looking
+This is how my graph is looking.
 
 <img width="440" height="99" alt="image" src="https://github.com/user-attachments/assets/3024a70b-8722-45fc-b68a-7d19a5105af0" />
 
@@ -49,15 +50,15 @@ This is my output.
 Learnings:
 
 So this video taught me about how to set up and use the LangGraph Studio to easily build and test graphs. 
-I also learned how LangSmith helps track each step in the workflow for better understanding.
+I also learned how LangSmith helps to track each step in the workflow for our better understanding.
 
 Work:
 
-So with the help of this video, I basically made a new simple graph with extra node opened using the LangSmith studio.
+So with the help of this video, I basically made a new simple graph with extra node using the LangSmith studio.
 
 <img width="273" height="344" alt="image" src="https://github.com/user-attachments/assets/0db0c18f-1d31-44c8-ac6f-44c48840156e" />
 
-This is how my graph using the LangSmith Studio
+This is how my graph made using the LangSmith Studio is looking.
 
 # Module 1 Video 4: Chain
 
@@ -65,7 +66,7 @@ Learnings:
 
 I learned how to build a chain in LangGraph by combining chat messages, chat models and tools within a single workflow. 
 I understood how messages store the full conversation and how tools let the model interact with external systems. 
-I also learned how to use reducers like 'add_messages' to keep appending new messages during execution. 
+I also learned how to use reducers like 'add_messages' to keep appending the new messages during execution. 
 
 Changes:
 
@@ -90,7 +91,7 @@ I saw how different tools and paths can help handle different kinds of questions
 Changes:
 
 Changed the multiplication question with different values and tested the tool.
-I also asked an extra question about "Who won the fifa world cup in 2022."
+I also asked an extra question about "Who won the fifa world cup in 2022" to test further.
 
 Original source code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/router.ipynb
@@ -125,7 +126,7 @@ Learnings:
 
 This video taught me how to add memory to an agent using a 'thread_id'. It helps the model remember past actions and continue from previous steps.
 I learned how checkpoints store each step of the conversation.
-LangGraph dev makes this easier with its built-in persistence layer for memory.
+In LangGraph dev, there is an in-built persistence layer that intergrates the API key and gives memory to the agent by default.
 
 Changes:
 
@@ -137,6 +138,7 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module1/agent_memory%20(1).ipynb
+
 
 
 
