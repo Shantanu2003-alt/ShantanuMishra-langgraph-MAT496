@@ -1,4 +1,5 @@
 # ShantanuMishra-langgraph-MAT496
+
 This repository is for my video-by-video progress of different modules of the Introduction to LangGraph course by LangChain Academy. 
 I have written my learnings and my work of each video of the Modules below:
 
@@ -89,14 +90,45 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module1/router%20(1).ipynb
 
-# Module 1 Video 6: 
+# Module 1 Video 6: Agent
 
+Learnings:
 
+I learned how to build a ReAct agent where the chat model can decide to call a tool or respond directly based on user input. 
+How to use conditional edges to route the flow between the Assistant and Tools nodes. 
+Also learned how to create a loop so that the model can repeatedly call tools and give reason about their outputs before giving a final response. 
+Finally, I saw how this general architecture can handle many types of tools and queries efficiently.
 
+Changes:
 
+I tested the tool by changing the question with bigger values to calculate and also added subtraction 
+Made the question: "Add 19 and 41. Multiply the output by 2. Subtract the output by 5. Divide the output by 5"
+Then, I asked another question about "How many kilometers are in 10 miles?" to test the tool in a different way.
 
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/agent.ipynb
 
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module1/agent%20(1).ipynb
 
+# Module 1 Video 7: Agent with Memory
+
+Learnings:
+
+This video taught me how to add memory to an agent using a 'thread_id'. It helps the model remember past actions and continue from previous steps.
+I learned how checkpoints store each step of the conversation.
+LangGraph dev makes this easier with its built-in persistence layer for memory.
+
+Changes:
+
+Created a new thread and added new steps to the process to see if the model can keep track of memory over time and perform different calculations.
+The final operation referenced the result from the first ever operation and the result the model gave used it correctly. 
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/agent_memory.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module1/agent_memory%20(1).ipynb
 
 
 
