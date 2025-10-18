@@ -152,3 +152,31 @@ I also learned how to use LangGraph Studio and Cloud to run and manage my agents
 Changes:
 
 I could not deploy the project because deployment is only available for users on the LangSmith Plus (paid) plan.
+
+
+# Module 2 Video 1: State Schema
+
+Learnings:
+
+I learnt from this video that LangGraph uses typed state schemas to maintain a structured flow of data across all nodes.
+I understood the three ways to define a schema in LangGraph: using TypedDict, Dataclass and Pydantic.
+Pydantic is the most reliable as it validates the data at runtime and it also prevents invalid values so this helps to confirm that the graph behaves correctly and follows the defined structure.
+
+Changes:
+
+I updated the name Lance to my nickname Shan in all the code cells.
+In all the code cells, I replaced the given moods with new moods: happy with wholesome, sad with nervous and mad with unbothered.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/state_schema.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/state_schema%20(1).ipynb
+
+
+
+
+
+
+
+
