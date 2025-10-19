@@ -265,3 +265,23 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Mo
 This is how the summary about me looks like here:
 <img width="1285" height="83" alt="image" src="https://github.com/user-attachments/assets/c1b96d2e-39a3-4e42-a5c2-562aa5f8934f" />
 
+# Module 2 Video 6: Chatbot with Summarizing Messages and External Memory
+
+Learnings:
+
+I learned how to use SQLite to save the chatbot’s chats so that they can be loaded again after restarting.
+I got that this is done using checkpointers as they store the state of each thread in a database so the chatbot can continue from where it left off.
+Using external memory helps in keeping the token usage low while maintaining long-term memory.
+Lastly, I learned that LangGraph Dev automatically saves the chats using Postgres under the same thread ID.
+
+Changes:
+
+I changed the threshold to summarize conversations exceeding 5 messages instead of the given 6 messages.
+I created a new thread with ID 2.
+I built a short conversation where I introduced myself, mentioned that I support FC Barcelona and I tested if the chatbot could remember my favorite team and my interest in football.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/chatbot_external_memory.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/chatbot_external_memory%20(1).ipynb
