@@ -173,10 +173,25 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/state_schema%20(1).ipynb
 
+# Module 2 Video 2: State Reducers
 
+Learnings:
 
+I learnt from this video that the reducers decide how updates are made in the state of a graph. 
+Instead of replacing old values, they can add or merge the new values safely. 
+I also learnt to use custom reducers and message IDs to rewrite or remove specific messages whenever it is needed.
 
+Changes:
 
+I replaced the placeholder 'foo' with 'data' in all the code cells.
+I also changed the user name from "Lance" to my nickname "Shan" to make it more personal.
+I changed the question from asking about marine biology to asking how AI is used in sports.
+I added another human message as a follow up to my question, asking which sport uses AI the most.
+Then I changed the message from talking about whales to talking about football to match the topic of AI in sports.
 
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/state_reducers.ipynb
 
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/state_reducers%20(1).ipynb
 
