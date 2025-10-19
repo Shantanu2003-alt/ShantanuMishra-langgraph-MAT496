@@ -240,3 +240,28 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/trim_filter_messages%20(1).ipynb
 
+# Module 2 Video 5: Chatbot with Summarizing Messages and Memory
+
+Learnings:
+
+This video explained how to make a simple chatbot that can summarize its messages after a fixed number of exchanges to keep the conversation short and clear. 
+I also learnt how LangGraph keeps a brief summary to compress long chat histories instead of reprocessing every message. 
+The conditional edges help the chatbot to know when to update the summary so that the chatbot always gets the right context.
+Persistence and checkpointers save the state of the chatbot after each step and give it the memory for longer chats. 
+Threads work like Slack channels and they keep each conversation separate and organized.
+
+Changes:
+
+I changed the threshold to summarize conversations exceeding 9 messages instead of the given 6 messages.
+I changed the given human messages to give 5 messages with personal details about me like my name, my studies and my interests.
+Also replaced the given question about Nick Bosa with a World War 2 question.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/chatbot_summarization.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/chatbot_summarization%20(1).ipynb
+
+This is how the summary about me looks like here:
+<img width="1285" height="83" alt="image" src="https://github.com/user-attachments/assets/c1b96d2e-39a3-4e42-a5c2-562aa5f8934f" />
+
