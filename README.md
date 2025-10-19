@@ -195,3 +195,26 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/state_reducers%20(1).ipynb
 
+# Module 2 Video 3: Multiple Schemas
+
+Learnings:
+
+Private states help to hide the intermediate steps of nodes when we do not need to show their outputs.
+Private states help the nodes to share temporary data without affecting the main graph output.
+I also learned how input and output schemas let us control exactly what data enters and leaves the graph.
+Overall, multiple schemas give us more control over how the information moves and how it is showed in the workflow.
+
+Changes:
+
+I changed all mentions of Lance to Shan in the node outputs and notes.
+I replaced foo and baz with data and temp.
+I added print() statements in the nodes to show messages like "Thinking about the question" and "Giving the final answer!".
+I updated the output strings to phrases like processing: and "Bye bye, Shan!" and adjusted the notes text a bit.
+I changed the input questions in graph.invoke() to more natural sentences like "Hello there, who is Shan?" and hello.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/multiple_schemas.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/multiple_schemas%20(1).ipynb
+
