@@ -218,3 +218,25 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/multiple_schemas%20(1).ipynb
 
+# Module 2 Video 4: Trim and Filter Messages
+
+Learnings:
+
+I learned how message reducers, filters and trimmers control how much of the chat history is sent to the model each time.
+I understood how the reducers get implemented first, then filtering is used to pass only the last message while still showing the full conversation.
+Then also I explored trimming, which allows to keep only part of the past context when sending input to the model.
+I understood that the main goal is to reduce token usage and get faster responses while keeping the chat flow consistent.
+
+Changes:
+
+I changed the topic from ocean mammals and whales to space exploration and planets.
+I replaced the original questions by adding new questions like "Tell me more about black holes", "How is Jupiter?" and "What is the biggest star in the universe?".
+I replaced the name Lance to my nickname Shan.
+I updated and stored these new space-related messages to keep the conversation consistent.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/trim_filter_messages.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/trim_filter_messages%20(1).ipynb
+
