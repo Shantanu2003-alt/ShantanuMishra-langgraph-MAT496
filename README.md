@@ -186,7 +186,7 @@ Changes:
 I replaced the placeholder 'foo' with 'data' in all the code cells.
 I also changed the user name from "Lance" to my nickname "Shan" to make it more personal.
 I changed the question from asking about marine biology to asking how AI is used in sports.
-I added another human message as a follow up to my question, asking which sport uses AI the most.
+I added another human message as a follow up to my question by asking which sport uses AI the most.
 Then I changed the message from talking about whales to talking about football to match the topic of AI in sports.
 
 Original source code file:
@@ -200,7 +200,7 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Mo
 Learnings:
 
 Private states help to hide the intermediate steps of nodes when we do not need to show their outputs.
-Private states help the nodes to share temporary data without affecting the main graph output.
+Private states also help the nodes to share temporary data without affecting the main graph output.
 I also learned how input and output schemas let us control exactly what data enters and leaves the graph.
 Overall, multiple schemas give us more control over how the information moves and how it is showed in the workflow.
 
@@ -223,8 +223,8 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Mo
 Learnings:
 
 I learned how message reducers, filters and trimmers control how much of the chat history is sent to the model each time.
-I understood how the reducers get implemented first, then filtering is used to pass only the last message while still showing the full conversation.
-Then also I explored trimming, which allows to keep only part of the past context when sending input to the model.
+I understood how the reducers get implemented first then filtering is used to pass only the last message while still showing the full conversation.
+Then also I explored trimming which allows to keep only some part of the past context when sending input to the model.
 I understood that the main goal is to reduce token usage and get faster responses while keeping the chat flow consistent.
 
 Changes:
@@ -245,7 +245,7 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Mo
 Learnings:
 
 This video explained how to make a simple chatbot that can summarize its messages after a fixed number of exchanges to keep the conversation short and clear. 
-I also learnt how LangGraph keeps a brief summary to compress long chat histories instead of reprocessing every message. 
+I also learnt how LangGraph keeps a short summary to compress long chat histories instead of reprocessing every message. 
 The conditional edges help the chatbot to know when to update the summary so that the chatbot always gets the right context.
 Persistence and checkpointers save the state of the chatbot after each step and give it the memory for longer chats. 
 Threads work like Slack channels and they keep each conversation separate and organized.
@@ -254,7 +254,7 @@ Changes:
 
 I changed the threshold to summarize conversations exceeding 9 messages instead of the given 6 messages.
 I changed the given human messages to give 5 messages with personal details about me like my name, my studies and my interests.
-Also replaced the given question about Nick Bosa with a World War 2 question.
+Also I replaced the given question about Nick Bosa with a World War 2 question.
 
 Original source code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/chatbot_summarization.ipynb
@@ -271,7 +271,7 @@ Learnings:
 
 I learned how to use SQLite to save the chatbot’s chats so that they can be loaded again after restarting.
 I got that this is done using checkpointers as they store the state of each thread in a database so the chatbot can continue from where it left off.
-Using external memory helps in keeping the token usage low while maintaining long-term memory.
+Using the external memory helps in keeping the token use low while maintaining long-term memory.
 Lastly, I learned that LangGraph Dev automatically saves the chats using Postgres under the same thread ID.
 
 Changes:
