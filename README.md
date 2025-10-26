@@ -310,5 +310,26 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module3/streaming_interruption%20(1).ipynb
 
+# Module 3 video 2: Breakpoints
+
+Learnings:
+
+So I learnt from this video that breakpoints can pause a LangGraph at certain steps so that a user can interact with it while it is running.
+They are helpful for debugging problems and for making small edits to the state of graph during execution.
+I understood that by using interrupt_before=["tools"] the graph stops right before a specific node runs and it gives us the time to review about what happens next.
+This helps to make the graph’s behavior more controlled and transparent.
+
+Changes:
+
+I changed the given multiply 2 and 3 operation to multiply 5 and 14 instead with has the option that when the user responds yes, then only the tool is called.
+Then to test the LLM, I added another example which runs the graph to divide 20 by 10.
+Then the code pauses for user confirmation and only executes the tool call if the user responds "yes".
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/breakpoints.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module3/breakpoints%20(1).ipynb
+
 
 
