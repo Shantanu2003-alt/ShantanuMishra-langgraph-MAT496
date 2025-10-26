@@ -285,3 +285,30 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module2/chatbot_external_memory%20(1).ipynb
+
+
+# Module 3 video 1: Streaming
+
+Learnings:
+
+I learnt from this video that streaming in LangGraph helps us to see the graph run in real time by showing updates as each node executes and it helps us to understand the flow of data and how the graph’s state changes step by step.
+The .stream and .astream methods are used for synchronous and asynchronous streaming and they can show either the full graph state or just the updates after each node runs.
+The stream_mode="updates" option only shows the parts of the graph that changed and make the output cleaner and easier to follow.
+Lastly, I learnt about the .astream_events method that streams live events like token generation and show what is happening in the graph in real time.
+
+Changes:
+
+I changed the name from Lance to Shan.
+I changed the threshold to summarize conversations exceeding 4 messages instead of the given 6 messages.
+I started the conversation differently by saying "Hello, I'm Shan!"
+Then I modified the input message from "Tell me about the 49ers NFL team" to "My favourite IPL team is Mumbai Indians, give me more information about them please."
+Then I changed and added a new example to "Tell me about another IPL team called Chennai Super Kings." to see how the LLM will respond to that.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/streaming_interruption.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module3/streaming_interruption%20(1).ipynb
+
+
+
