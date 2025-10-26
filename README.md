@@ -331,5 +331,27 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module3/breakpoints%20(1).ipynb
 
+# Module 3 Video 3: Editing State and Human Feedback
+
+Learnings:
+
+This video taught me that using a breakout, we can edit the state of LangGraph.
+We can directly change parts of the data of the graph like adding messages in the state using the update_state method.
+I understood that the add_messages reducer can update the messages as we can add a new message or replace an old message using its message ID.
+The checkpointers save the graph's state up to a certain point. I also learnt that the human_feedback node allows the users to give input when the graph is paused.
+
+Changes:
+
+I changed the numbers in the first multiplication operation to 7 and 8
+Then added a new message by saying: "No, actually multiply 11 and 9!"
+Then in the user input section, I updated the state: "Change the numbers to 13 and 10 instead" and got the result.
+At last, I added a new example to Divide 72 and 8 and then while updating the state- I said "Go ahead and call the divide tool" and got the result.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/edit_state_human_feedback.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module3/edit_state_human_feedback%20(1).ipynb
+
 
 
