@@ -477,17 +477,15 @@ We can use get_state to see the current state and get_state_history to browse al
 
 I learnt that we can replay the graph from any previous step to test or reproduce its behavior.
 
-Forking helps us to change the state at a past checkpoint and run the graph with new inputs while keeping the setup.
-
-I understood that the add_messages reducer decides whether to add new messages or to overwrite the old messages while forking.
+Forking helps us to change the state at a past checkpoint and run the graph with new inputs while keeping the setup. I understood that the add_messages reducer decides whether to add new messages or to overwrite the old messages while forking.
 
 Changes:
 
-I changed the first input to Divide 20 and 5.
+I changed the first input message to Divide 20 and 5.
 
 Then I modified the state at a checkpoint by giving the input to Add 25 and 35.
 
-Then I created a step by step new example with forking to test the LLM by asking to Multiply 10 and 8.
+Then again I created a step by step new example with forking to test the LLM by asking to Multiply 10 and 8 and got the result.
 
 Original source code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/time_travel.ipynb
