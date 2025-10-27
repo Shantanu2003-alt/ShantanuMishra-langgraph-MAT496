@@ -1,4 +1,4 @@
-# ShantanuMishra-langgraph-MAT496
+<img width="923" height="480" alt="image" src="https://github.com/user-attachments/assets/ba7c824a-bac2-4534-9423-705bdc92d2bb" /># ShantanuMishra-langgraph-MAT496
 
 This repository is for my video-by-video progress of different modules of the Introduction to LangGraph course by LangChain Academy.
 
@@ -375,6 +375,10 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module3/streaming_interruption%20(1).ipynb
 
+This is my work for this video using the tools in LangGraph Studio:
+
+<img width="456" height="455" alt="image" src="https://github.com/user-attachments/assets/3b46e035-671a-4d5a-8555-908390f114bf" />
+
 # Module 3 video 2: Breakpoints
 
 Learnings:
@@ -398,6 +402,10 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module3/breakpoints%20(1).ipynb
+
+This is my work regarding this video for the divide operation using the tools in LangGraph Studio:
+
+<img width="923" height="480" alt="image" src="https://github.com/user-attachments/assets/970522b8-9423-417b-92ac-b69a71d6cbb5" />
 
 # Module 3 Video 3: Editing State and Human Feedback
 
@@ -427,5 +435,8 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module3/edit_state_human_feedback%20(1).ipynb
 
+This is my work regarding this video for the multiply operation using the tools in LangGraph Studio:
+
+<img width="930" height="485" alt="image" src="https://github.com/user-attachments/assets/d3365b89-6583-496f-ad59-6e875fd84b2f" />
 
 
