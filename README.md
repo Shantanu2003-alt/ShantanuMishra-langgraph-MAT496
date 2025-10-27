@@ -1,4 +1,4 @@
-<img width="923" height="480" alt="image" src="https://github.com/user-attachments/assets/ba7c824a-bac2-4534-9423-705bdc92d2bb" /># ShantanuMishra-langgraph-MAT496
+# ShantanuMishra-langgraph-MAT496
 
 This repository is for my video-by-video progress of different modules of the Introduction to LangGraph course by LangChain Academy.
 
