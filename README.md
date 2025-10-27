@@ -439,4 +439,27 @@ This is my work regarding this video for the multiply operation using the tools 
 
 <img width="930" height="485" alt="image" src="https://github.com/user-attachments/assets/d3365b89-6583-496f-ad59-6e875fd84b2f" />
 
+# Module 3 video 4: Dynamic Breakpoints
+
+Learnings:
+
+Breakpoints can be set dynamically by the graph itself using NodeInterrupt. This allows the graph to pause conditionally based on logic in a node like checking the input length.
+
+I also got that NodeInterrupt can send messages to explain why the graph is paused to the user.
+
+I understood that we can we can check, update or resume the graph after hitting a dynamic breakpoint.
+
+Changes:
+
+For the first input, I gave the instruction- "Namaste LLM! I am Shantanu".
+
+Then, I updated the state by giving the instruction- "Konnichiwa LLM! I am Shantanu".
+
+Then, I added a new example where I updated the state by giving the instruction- "Hola LLM! I am Shantanu".
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/dynamic_breakpoints.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module3/dynamic_breakpoints%20(1).ipynb
 
