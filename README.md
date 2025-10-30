@@ -496,3 +496,31 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Mo
 This is the graph that I got from this video on the studio:
 
 <img width="313" height="382" alt="image" src="https://github.com/user-attachments/assets/de83771e-d364-427e-baf4-220a5ceb1ae5" />
+
+
+# Module 4 video 1: Parallelization
+
+Learnings:
+
+From this video, I understood that we can make a LangGraph run multiple nodes in parallel like searching two websites at the same time to collect information faster.
+
+Then I saw that reducers are used to combine results from parallel branches into one list or output for the next step.
+
+I got that we can control the order and way data merges by using different reducers like the default 'operator.add' or a custom 'sorting_reducer'.
+
+I learned how parallel execution, synchronization and state management work in LangGraph.
+
+Changes:
+
+While Initializing each node with node_secret - I replaced nodes A,B,C,D with Rohit, Sachin, Dravid, Virat.
+
+I replaced the question to: Why is Pluto not a planet anymore?
+
+I also asked another question to test the workflow: Give me 5 reasons why I should visit France.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/parallelization.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module4/parallelization%20(1).ipynb
+
