@@ -508,7 +508,7 @@ Then I saw that reducers are used to combine results from parallel branches into
 
 I got that we can control the order and way data merges by using different reducers like the default 'operator.add' or a custom 'sorting_reducer'.
 
-I learned how parallel execution, synchronization and state management work in LangGraph.
+I learned how parallel execution, synchronization and state management work in LangGraph. Also, I used the TAVILY platform to use an api key from there.
 
 Changes:
 
@@ -523,4 +523,28 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module4/parallelization%20(1).ipynb
+
+<img width="369" height="299" alt="image" src="https://github.com/user-attachments/assets/a65972c8-89ff-415e-9e83-40f063d36121" />
+
+# Module 4 video 2: Sub-graphs
+
+Learnings:
+I understood that we can build graphs in other graphs where subgraphs act as smaller workflows within a main graph.
+
+I learned that subgraphs can share data with the parent graph using common state keys. They can run either in parallel or sequentially depending on how we design the workflow.
+
+I got that using subgraphs helps in organizing complex tasks and managing states separately while keeping the overall graph connected.
+
+Changes:
+I replaced the old dummy logs with new ones focused on AI model integration and workflow automation and updated both the questions and related details.
+
+Then I ran the graph using these new logs to test how it processes and analyzes the updated inputs.
+
+I added a new log entry and question about how intelligent workflows enhance AI system performance to test the graph’s response generation.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/sub-graph.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module4/sub_graph%20(1).ipynb
 
