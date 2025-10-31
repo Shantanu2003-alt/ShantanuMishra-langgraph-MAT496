@@ -524,11 +524,13 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module4/parallelization%20(1).ipynb
 
+This is my graph:
 <img width="369" height="299" alt="image" src="https://github.com/user-attachments/assets/a65972c8-89ff-415e-9e83-40f063d36121" />
 
 # Module 4 video 2: Sub-graphs
 
 Learnings:
+
 I understood that we can build graphs in other graphs where subgraphs act as smaller workflows within a main graph.
 
 I learned that subgraphs can share data with the parent graph using common state keys. They can run either in parallel or sequentially depending on how we design the workflow.
@@ -536,6 +538,7 @@ I learned that subgraphs can share data with the parent graph using common state
 I got that using subgraphs helps in organizing complex tasks and managing states separately while keeping the overall graph connected.
 
 Changes:
+
 I replaced the old dummy logs with new ones focused on AI model integration and workflow automation and updated both the questions and related details.
 
 Then I ran the graph using these new logs to test how it processes and analyzes the updated inputs.
@@ -547,4 +550,47 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/So
 
 Edited code file:
 https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module4/sub_graph%20(1).ipynb
+
+# Module 4 video 3: Map-reduce
+
+Learnings:
+
+I learned from this video about how LangGraph breaks a big task into smaller steps using the map-reduce method.
+
+I understood how each node is doing a small job and then the results get combined into one final output.
+
+Also, "Send" helps to run the same step on many items at once and that the conditional edges control the flow.
+
+Changes:
+
+I replaced 3 with 5 sub-topics generation related to the topic.
+
+Then I also replaced "joke" with "fact" everywhere and then I changed all the code cells by changing the variable names and prompt names ahead accordingly and thats why my graph also changed.
+
+Then I changed the question by Calling the graph by asking about the topic- Bollywood songs and then I got the sub-topics, facts and the best fact.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/map-reduce.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module4/map_reduce%20(1).ipynb
+
+This is my graph:
+<img width="133" height="287" alt="image" src="https://github.com/user-attachments/assets/937ea0ce-f5b0-43a9-9e64-718929fdccac" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
