@@ -578,14 +578,35 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Mo
 This is my graph:
 <img width="133" height="287" alt="image" src="https://github.com/user-attachments/assets/937ea0ce-f5b0-43a9-9e64-718929fdccac" />
 
+# Module 4 video 3: Research Assistant 
 
+Learnings:
 
+From this video, I learnt how to build a multi agent research workflow by combining parallel execution, sub-graphs and map-reduce.
 
+This can automate the topic analysis, research and report generation.
 
+I learnt about how the agents gets information by using the web, generating analysts, conducting interviews and then making a report on the topic.
 
+So overall, I combined all the learnings of the previous sections to make a research assistant.
 
+Changes:
 
+I changed the max number of analysts to 4.
 
+Then I changed the topic from "The benefits of adopting LangGraph as an agent framework" to "The benefits of learning AI".
+
+Based on that, I got a totally different final report.
+
+Original source code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/SourceCode/research-assistant.ipynb
+
+Edited code file:
+https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Module4/research_assistant.ipynb
+
+This is the standard Research assistant workflow on LangSmith Studio:
+
+<img width="383" height="471" alt="image" src="https://github.com/user-attachments/assets/6634f8e0-9693-4d66-ac90-f4d9278f5516" />
 
 
 
