@@ -578,7 +578,7 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Mo
 This is my graph:
 <img width="133" height="287" alt="image" src="https://github.com/user-attachments/assets/937ea0ce-f5b0-43a9-9e64-718929fdccac" />
 
-# Module 4 video 3: Research Assistant 
+# Module 4 video 4: Research Assistant 
 
 Learnings:
 
@@ -607,11 +607,3 @@ https://github.com/Shantanu2003-alt/ShantanuMishra-langgraph-MAT496/blob/main/Mo
 This is the standard Research assistant workflow on LangSmith Studio:
 
 <img width="383" height="471" alt="image" src="https://github.com/user-attachments/assets/6634f8e0-9693-4d66-ac90-f4d9278f5516" />
-
-
-
-
-
-
-
-
